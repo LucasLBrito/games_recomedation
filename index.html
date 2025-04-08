@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- This is the HTML document structure for a game recommendation page -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendação de jogos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+    <header id="Menu" class="bg-dark text-light">
+        <div class="navbar navbar-expand-lg  navbar-dark">
+            <div class="container">
+             <h1>OS melhores jogos indies</h1>
+             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                 <span class="navbar-toggler-icon"></span>
+             </button>
+             <nav class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                 <ul class="nav navbar-nav nav-pills">
+                     <li class="nav-item"><a class="nav-link active" href="#Inicio">Início</a></li>
+                     <li class="nav-item"><a class="nav-link" href="#Recomendações">Recomendação</a></li>
+                     <li class="nav-item"><a class="nav-link" href="#Contato">Contato</a></li>
+                 </ul>
+             </nav>
+            </div>
+         </div>
+    </header>
+    <div id="carrousel" class="carousel carousel-fade slide mb-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="2000"class="carousel-item active">
+                <img src="https://www.gamerinfo.com.br/wp-content/uploads/2022/07/179_Capa_-_Jogos_indies-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div data-bs-interval="2000"class="carousel-item">
+                <img src="https://store-images.s-microsoft.com/image/apps.24270.13847644057609868.a4a91f76-8d1c-4e19-aa78-f4d27d2818fb.d96146d7-d00a-4db9-ad68-197b2f962a17?h=862&format=jpg" class="d-block w-100" alt="...">
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+                <img src="https://deliriumnerd.com/wp-content/uploads/2016/12/f58978f175eba8065d1b5afe4545876d_original.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+                <img src="https://image.api.playstation.com/cdn/UP2120/CUSA11302_00/hgqlI1LTcsd6zuL7YWVLQ8d00jkBmtCg.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div data-bs-interval="2000" class="carousel-item">
+                <img src="https://cdn1.epicgames.com/1368a7f14c3344bbaededbae528fafed/offer/EGS_DeadCells_MotionTwin_S1-2560x1440-87045359c3856ef941959aeeb00dbc7f.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button data-bs-target="#carrousel" data-bs-slide="prev" class ="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carrousel" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button data-bs-target="#carrousel" data-bs-slide-to="0" class="active"></button>
+            <button data-bs-target="#carrousel" data-bs-slide-to="1"></button>
+            <button data-bs-target="#carrousel" data-bs-slide-to="2"></button>
+            <button data-bs-target="#carrousel" data-bs-slide-to="3"></button>
+            <button data-bs-target="#carrousel" data-bs-slide-to="4"></button>
+        </div>
+    </div>
+
+    <section class="container inicio">
+        <div class="row" id="Inicio">
+            <div class="col-12 col-md-6">
+                <h2 ">O que são jogos indies?</h2>
+                <p>Jogos indies, ou jogos independentes, são desenvolvidos por pequenos estúdios ou até mesmo por desenvolvedores individuais, sem o apoio financeiro de grandes editoras. Apesar de contarem com orçamentos mais limitados, esses jogos costumam oferecer experiências únicas, criativas e inovadoras, muitas vezes explorando ideias originais que fogem do padrão dos grandes lançamentos.</p>
+            </div>
+            <div class="col-12 col-md-6">
+                <img src="https://www.gamevicio.com/static/imagens_up/big/19/os-20-melhores-jogos-indies-da-oitava-geracao-de-videogames-018274.webp" alt="Imagem de jogos indies" class="img-fluid">
+            </div>
+        </div>
+    </section>
+    <section class="container p-5" >
+        <div class="row" id="Recomendação">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card text-bg-dark">
+                    <img src="https://i.ytimg.com/vi/JuP47fRBsWg/maxresdefault.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Hollow knight </h4>
+                        <h5 class="card-subtitle">By - Team cherry</h5>
+                        <p>Hollow Knight é um jogo de ação e aventura em estilo metroidvania, desenvolvido pela Team Cherry. Ambientado no reino subterrâneo de Hallownest, você controla um cavaleiro silencioso em uma jornada por ruínas antigas, enfrentando inimigos desafiadores e desvendando mistérios sombrios. Com uma arte desenhada à mão, trilha sonora imersiva e uma jogabilidade precisa, Hollow Knight se destaca por sua atmosfera melancólica e exploração profunda.</p>
+                        <a href="https://store.steampowered.com/app/367520/Hollow_Knight/" class="btn btn-primary">Conferir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card text-bg-dark">
+                    <img src="https://i.ytimg.com/vi/JuP47fRBsWg/maxresdefault.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Hollow knight </h4>
+                        <h5 class="card-subtitle">By - Team cherry</h5>
+                        <p>Hollow Knight é um jogo de ação e aventura em estilo metroidvania, desenvolvido pela Team Cherry. Ambientado no reino subterrâneo de Hallownest, você controla um cavaleiro silencioso em uma jornada por ruínas antigas, enfrentando inimigos desafiadores e desvendando mistérios sombrios. Com uma arte desenhada à mão, trilha sonora imersiva e uma jogabilidade precisa, Hollow Knight se destaca por sua atmosfera melancólica e exploração profunda.</p>
+                        <a href="https://store.steampowered.com/app/367520/Hollow_Knight/" class="btn btn-primary">Conferir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card text-bg-dark">
+                    <img src="https://i.ytimg.com/vi/JuP47fRBsWg/maxresdefault.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Hollow knight </h4>
+                        <h5 class="card-subtitle">By - Team cherry</h5>
+                        <p>Hollow Knight é um jogo de ação e aventura em estilo metroidvania, desenvolvido pela Team Cherry. Ambientado no reino subterrâneo de Hallownest, você controla um cavaleiro silencioso em uma jornada por ruínas antigas, enfrentando inimigos desafiadores e desvendando mistérios sombrios. Com uma arte desenhada à mão, trilha sonora imersiva e uma jogabilidade precisa, Hollow Knight se destaca por sua atmosfera melancólica e exploração profunda.</p>
+                        <a href="https://store.steampowered.com/app/367520/Hollow_Knight/" class="btn btn-primary">Conferir</a>
+                    </div>
+                </div>
+            </div>
+ 
+        </div>
+    </section>
+ 
+ 
+    
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu" crossorigin="anonymous"></script>
+</body>
+</html>
