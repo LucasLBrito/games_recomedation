@@ -1,41 +1,102 @@
+/* Estilos existentes */
 .carousel-item {
     height: 50vh;
 }
-.carousel-item  img{
+
+.carousel-item img {
     width: 100%;
     height: 100%;
-    object-fit: 'cover';
+    object-fit: cover;
 }
-.inicio{
+
+.inicio {
     background-color: #3c4249;
-    padding: 45px;
-    height: 40vh;
+    padding: 20px;
+    /* height: 45vh; */
     border-radius: 2em;
     color: white;
 }
-#Inicio{
-    
-    padding: 30px;
-    height: 40vh;
-}
-.img-fluid{
+
+.img-fluid {
     width: 100%;
-    height: 25vh
+    height: 70%;
+    margin-top: 30px;
 }
-.card-subtitle{
+
+.card-subtitle {
     font-weight: 100;
     font-style: italic;
 }
-.recomedacao{
+
+.recomedacao {
     margin: 20px 100px 0px 100px;
     padding: 30px;
 }
-.card-img-top{
+
+.card-img-top {
     height: 30%;
 }
-    
-.card-img-fixed{
+
+/* Fixar altura das imagens dos cards */
+.card-img-fixed {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Novos estilos para cards expansíveis */
+.card {
+    height: 50%;
+    transition: all 0.3s ease;
+}
+
+/* Estilos para o texto expansível */
+.card-text-short {
+    overflow: hidden;
+    max-height: 100px;
+    position: relative;
+}
+
+.card-text-full {
+    display: none;
+}
+
+.read-more-btn {
+    background: none;
+    border: none;
+    color: #0d6efd;
+    padding: 0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Gradiente para indicar que há mais conteúdo */
+.gradient-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    height: 200px; /* altura fixa */
-    object-fit: cover; /* mantém proporções da imagem */
+    height: 40px;
+    background: linear-gradient(transparent, #212529);
+}
+
+/* Estilos para organização dos elementos dentro dos cards */
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Botão sempre no final do card */
+.card-body .mt-auto {
+    margin-top: auto;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 30vh;
+    }
+    
+    .inicio {
+        padding: 15px;
+    }
 }
