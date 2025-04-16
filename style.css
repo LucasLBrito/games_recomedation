@@ -35,6 +35,7 @@
 
 .card-img-top {
     height: 30%;
+    border-radius: 20px;
 }
 
 /* Fixar altura das imagens dos cards */
@@ -42,14 +43,17 @@
     height: 200px;
     object-fit: cover;
 }
-
-/* Novos estilos para cards expansíveis */
+.card{
+    height: 100%;
+    border-radius: 20px;
+}
+/*
 .card {
     height: 50%;
     transition: all 0.3s ease;
 }
 
-/* Estilos para o texto expansível */
+
 .card-text-short {
     overflow: hidden;
     max-height: 100px;
@@ -60,37 +64,8 @@
     display: none;
 }
 
-.read-more-btn {
-    background: none;
-    border: none;
-    color: #0d6efd;
-    padding: 0;
-    text-decoration: underline;
-    cursor: pointer;
-}
 
-/* Gradiente para indicar que há mais conteúdo */
-.gradient-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 40px;
-    background: linear-gradient(transparent, #212529);
-}
-
-/* Estilos para organização dos elementos dentro dos cards */
-.card-body {
-    display: flex;
-    flex-direction: column;
-}
-
-/* Botão sempre no final do card */
-.card-body .mt-auto {
-    margin-top: auto;
-}
-
-/* Estilos responsivos */
+*/
 @media (max-width: 768px) {
     .carousel-item {
         height: 30vh;
@@ -98,5 +73,8 @@
     
     .inicio {
         padding: 15px;
+    }
+    .card{
+        height: 100%;
     }
 }
